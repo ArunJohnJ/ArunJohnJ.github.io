@@ -12,7 +12,7 @@ locale                   : "en-US"
 title                    : "Arun Johnson J"
 title_separator          : "-"
 name                     : "Arun Johnson J"
-description              : "Portfolio"
+description              : "Data Science Portfolio"
 url                      : "https://arunjohnj.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "ArunJohnJ/ArunJohnJ" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -85,8 +85,8 @@ analytics:
 # Site Author
 author:
   name             : "Arun Johnson J"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Portfolio"
+  avatar           : "/images/favicon.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Data Science Portfolio"
   location         : "Chennai, TamilNadu, India"
   email            : "jjohnson.arun@gmail.com"
   uri              :
