@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/zakim.jpg"
+  image: "/images/beautiful scenery.jpeg"
 ---
 
 I’m an apsiring data scientist, having some experience in Web development frameworks Spring Boot and languages like Java, Python, data wrangling. 
