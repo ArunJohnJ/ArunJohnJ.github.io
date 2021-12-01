@@ -2,12 +2,12 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/beautiful scenery.jpeg"
+<!--   image: "/images/beautiful scenery.jpeg" -->
 ---
 
-I’m an apsiring data scientist, having some experience in Web development frameworks Spring Boot and languages like Java, Python, data wrangling. 
+I’m an software developer, having experience in Web development frameworks Spring Boot, Angular and languages like Java, Javascript and AWS solution architect certified
 
-I am currently learning machine learning techniques and deep learning techniques and working on few datasets for now. 
+React, Node, Docker are on my wishlist and will begin learning those soon
 
-I love working on projects together, so feel free to reach out for collaboration!
+I love working on solving problems
 
