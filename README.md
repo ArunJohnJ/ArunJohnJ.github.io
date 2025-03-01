@@ -229,6 +229,7 @@ Minimal Mistakes incorporates [GreedyNav.js](https://github.com/lukejacksonn/Gre
 Copyright (c) 2015 Luke Jackson.
 GreedyNav.js is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
+
 Minimal Mistakes incorporates [Jekyll Group-By-Array](https://github.com/mushishi78/jekyll-group-by-array),
 Copyright (c) 2015 Max White <mushishi78@gmail.com>.
 Jekyll Group-By-Array is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
