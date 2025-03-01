@@ -15,4 +15,23 @@ layout: archive
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
   </section>
+<button id="apiButton">Call API</button>
+
+  <script>
+    document.getElementById('apiButton').addEventListener('click', function() {
+      fetch('https://api.restful-api.dev/objects')
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+          }
+          return response.json();
+        })
+        .then(data => {
+          alert(JSON.stringify(data, null, 2));
+        })
+        .catch(error => {
+          alert('There was a problem with the fetch operation: ' + error.message);
+        });
+    });
+  </script>
 {% endfor %}
