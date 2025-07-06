@@ -1,6 +1,75 @@
----
-layout: home
-author_profile: true
-header:
-  image: "/images/beautiful scenery.jpeg"
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Static Page with Links</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <style>
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #333;
+      margin-top: 10 px;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+    }
+
+    .box {
+      width: 200px;
+      height: 120px;
+      border-radius: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+      padding: 10px;
+    }
+
+    .box:hover:not(.disabled) {
+      transform: scale(1.05);
+    }
+
+    .active {
+      background-color: #4caf50;
+      color: white;
+      text-decoration: none;
+    }
+
+    .disabled {
+      background-color: #e0e0e0;
+      color: #888;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Youth retreat 2025</h1>
+  <div class="container">
+    <a href="https://actionbound.com/bound/game-play-around" class="box active">Active</a>
+    <a href="https://kahoot.it/" div class="box disabled">Locked</div>
+    <div class="box disabled">Locked</div>
+  </div>
+</body>
+</html>
